@@ -117,21 +117,3 @@ footer .social-list-icon {
 .social-list-link:focus {
   background-color: #6a8c22;
 }
-
-@media screen and (max-width: 450px) {
-  .slide {
-    flex: none;
-  }
-  .slide h3 {
-    bottom: 20px;
-    right: 20px;
-  }
-  .active {
-    flex: 10;
-  }
-  .adaptive {
-    width: 300px;
-    flex-direction: column;
-    flex: none;
-  }
-}
